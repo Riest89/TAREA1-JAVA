@@ -1,0 +1,10 @@
+public class Main {
+    public static int suma(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    public static void main(String[] args) {
+        int resultado = suma(7, 8, 9);
+        System.out.println(resultado); // imprime 6
+    }
+}
